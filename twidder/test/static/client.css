@@ -1,0 +1,188 @@
+body{
+  background-color:lightblue;
+}
+.wrapper{
+  text-align: center;
+  width: 600px;
+  margin-top:100px;
+
+}
+
+.logo{
+  width: 340px;
+  height: 400px;
+}
+
+.logodiv{
+  background-color:white;
+  position: absolute;
+  margin-top: 0px;
+  padding:0px;
+  left: 30%;
+  width: 340px;
+  height: 400px;
+  margin-right: 10px;
+}
+
+.logins {
+  background-color:none;
+  position: absolute;
+  margin-top: 0px;
+  margin-left:0px;
+  right: 38%;
+  width: 250px;
+  height: 400px;
+  padding-right:10px;
+  padding-left:10px;
+  padding-bottom:0px;
+}
+.login{
+  text-align:left;
+  margin-top:0px;
+  margin-bottom:10px;
+  background-color:white;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+  height:15%;
+}
+.signup{
+  text-align:left;
+  margin-top:0px;
+  margin-bottom:0px;
+  background-color:white;
+  padding-left:0px;
+  padding-right:0px;
+  height:224px;
+  padding-bottom:0px;
+}
+.recover_pw{
+  text-align:left;
+  margin-top:0px;
+  margin-bottom:0px;
+  background-color:white;
+  padding-left:0px;
+  padding-right:0px;
+  height:83px;
+  padding-bottom:0px;
+}
+input[type=text],input[type = email],input[type = password]{
+position:absolute;
+width: 40%;
+right:20px;
+border: 1px solid #ccc;
+}
+
+
+
+select{
+  position:absolute;
+  width: 41%;
+  right:20px;
+  border: 1px solid #ccc;
+}
+label{
+  font-size: 11px;
+  margin-top:10px;
+}
+input[type=submit]{
+position:absolute;
+width: auto;
+height: 20px;
+border: 1px solid #ccc;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on click */
+.tab button:click {
+  background-color: #ccc;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: green;
+}
+
+.login button {
+  background-color: blue;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+/* profileview*/
+
+.profile_change{
+  width: 350px;
+  height: 300px;
+}
+
+
+input.profile_change{
+  right:85%;
+  background-color:white;
+  margin:10px;
+  width:150px;
+  height:15px;
+}
+
+input.signout{
+  width:60px;
+}
+input.change_psw{
+width:150px;
+}
+
+.personal_data_tab{
+  width: 250px;
+  height: 250px;
+}
+.wall{
+  top: 85px;
+  position: fixed;
+  right:30%;
+}
+input.tabcontent{
+  top: 200px;
+  width: 25%;
+  height: 25px;
+  right:15%;
+}
+
+input.browseusr{
+  top:20%;
+  right:85%;
+  background-color:white;
+  margin:10px;
+  width:auto;
+  height:20px;
+}
+
+.search_btn{
+  top:30%;
+  position:absolute;
+  right:80%;
+  left:0%;
+  margin:auto;
+  background-color: white;
+  border: 1px solid #ccc;
+}
